@@ -14,6 +14,6 @@ root.render(
     </Test>
     <Test name='Bipin' age='23' />
     <Test name='Surya' age='25' />
-    <Person />
+    <Person name='Keshab' age='22' />
   </React.StrictMode>
 );
