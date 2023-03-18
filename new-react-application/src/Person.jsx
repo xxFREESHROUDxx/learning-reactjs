@@ -5,7 +5,7 @@ export class Person extends Component {
   render() {
     return (
       <div className='App'>
-        <h1>Class Based Component for Testing</h1>
+        <h1>Class Based Component for Testing </h1>
       </div>
     );
   }
