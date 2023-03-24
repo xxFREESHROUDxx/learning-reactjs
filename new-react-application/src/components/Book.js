@@ -4,8 +4,9 @@ import '../stylesheets/Book.css';
 const Book = (props) => {
   return (
     <div className='book'>
-      <h2 onClick={props.change}>Book Name: {props.bookName} </h2>
-      <h3>Author: {props.author} </h3>
+      <h1 onClick={props.delete}>Book Name: {props.bookName} </h1>
+      <h2>Author: {props.author} </h2>
+      <input type='text' onChange={props.inputName} value={props.bookName} />
     </div>
   );
 };
